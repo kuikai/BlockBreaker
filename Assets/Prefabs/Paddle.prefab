@@ -1,0 +1,204 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &705972214
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705972215}
+  - component: {fileID: 705972216}
+  m_Layer: 0
+  m_Name: MangnetPowerTool
+  m_TagString: MagnetPaddle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &705972215
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705972214}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6714251750920483321}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &705972216
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705972214}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.010369539, y: -0.0049730837}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.8430762, y: 0.49209762}
+  m_EdgeRadius: 0
+--- !u!1 &6714251750920483327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6714251750920483321}
+  - component: {fileID: 6714251750920483326}
+  - component: {fileID: 6714251750920483320}
+  - component: {fileID: 6714251750920483323}
+  m_Layer: 0
+  m_Name: Paddle
+  m_TagString: Paddle
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6714251750920483321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714251750920483327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8, y: 0.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 705972215}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &6714251750920483326
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714251750920483327}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 395ea7ac42d473b48a743defd65b3b5b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.93, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!70 &6714251750920483320
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714251750920483327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.004933605, y: -0.0714296}
+  m_Size: {x: 1.9331398, y: 0.38998935}
+  m_Direction: 1
+--- !u!114 &6714251750920483323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714251750920483327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f532e9ee54269d48b22140fbac7d5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Defualt_animation:
+  - {fileID: 21300000, guid: e2534d6d544e4684ca65ee74804c18d1, type: 3}
+  - {fileID: 21300000, guid: 395ea7ac42d473b48a743defd65b3b5b, type: 3}
+  - {fileID: 21300000, guid: f411b1e42b14dd94286b3d4eb88032ae, type: 3}
+  Shotter_animation:
+  - {fileID: 21300000, guid: 48023c1c1941362428ea0161db971cd1, type: 3}
+  - {fileID: 21300000, guid: 103e8d30137f59e4c99a0ab408df4f5a, type: 3}
+  - {fileID: 21300000, guid: 466392d53c4810d4f8c1d3563ab309ee, type: 3}
+  FirBall: {fileID: 5672694433594976883, guid: 579c450b7bf66d64f82eda207183f611, type: 3}
+  mangetBall: {fileID: 7375894155954827748, guid: 8f7a6d0be9dadf1439b72fb402e07684,
+    type: 3}
+  Ball: {fileID: 7894900792537924449, guid: d05d25522d1a5ae40b622258721b1e95, type: 3}
+  Projectile: {fileID: 4666761676598006007, guid: c62b6463376ee0a48b7b4183af5cd148,
+    type: 3}
+  Long:
+  - {fileID: 21300000, guid: 35723604d51882c43ab2024737f34136, type: 3}
+  - {fileID: 21300000, guid: 379191028f182344ba0ff47dfebe03ad, type: 3}
+  - {fileID: 21300000, guid: 9d21d4864878c5d4e9a8b63c2ce47dc9, type: 3}
+  - {fileID: 21300000, guid: 9f7b0bcb8f1308747a79923863b0cb8f, type: 3}
+  small: {fileID: 21300000, guid: 9fbca58a4dcd6c446b95a38a3055de21, type: 3}
+  ball: {fileID: 7894900792537924452, guid: d05d25522d1a5ae40b622258721b1e95, type: 3}
+  BallOffsetToPaddle: {x: 0, y: 0.4, z: 0}
+  screenWidthUnits: 16
+  min: 1
+  max: 15
+  longOntime: 10
+  LongOn: 0
+  smallOn: 0
+  FireBallOn: 0
+  MangnetBallOn: 0
+  ShooterTime: 0.4
+  shooterOn: 0
+  DefaluteState: 1
+  NextBall: []
